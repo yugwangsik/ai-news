@@ -1,0 +1,213 @@
+{
+  "$comment": "수집 대상 정의. enabled 플래그만 켜고 끄면 소스가 붙고 떨어집니다. type=video 는 channelId 로 YouTube 피드 URL 을 만듭니다.",
+  "maxAgeDays": 30,
+  "sources": [
+    {
+      "id": "aitimes",
+      "name": "AI타임스",
+      "region": "KR",
+      "type": "article",
+      "url": "https://www.aitimes.com/rss/allArticle.xml",
+      "enabled": true
+    },
+    {
+      "id": "etnews",
+      "name": "전자신문 IT",
+      "region": "KR",
+      "type": "article",
+      "url": "https://rss.etnews.com/Section901.xml",
+      "enabled": true
+    },
+    {
+      "id": "zdnet-kr",
+      "name": "ZDNet Korea",
+      "region": "KR",
+      "type": "article",
+      "url": "https://feeds.feedburner.com/zdkorea",
+      "enabled": true
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch AI",
+      "region": "US",
+      "type": "article",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "enabled": true
+    },
+    {
+      "id": "theverge",
+      "name": "The Verge",
+      "region": "US",
+      "type": "article",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "enabled": true
+    },
+    {
+      "id": "arstechnica",
+      "name": "Ars Technica",
+      "region": "US",
+      "type": "article",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "enabled": true
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI Blog",
+      "region": "US",
+      "type": "article",
+      "url": "https://blog.google/technology/ai/rss/",
+      "enabled": true
+    },
+    {
+      "id": "itmedia-ai",
+      "name": "ITmedia AI+",
+      "region": "JP",
+      "type": "article",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+      "enabled": true
+    },
+    {
+      "id": "publickey",
+      "name": "Publickey",
+      "region": "JP",
+      "type": "article",
+      "url": "https://www.publickey1.jp/atom.xml",
+      "enabled": true
+    },
+    {
+      "id": "gigazine",
+      "name": "GIGAZINE",
+      "region": "JP",
+      "type": "article",
+      "url": "https://gigazine.net/news/rss_2.0/",
+      "enabled": true
+    },
+
+    {
+      "id": "yt-two-minute-papers",
+      "name": "Two Minute Papers",
+      "region": "US",
+      "type": "video",
+      "handle": "@TwoMinutePapers",
+      "channelId": "UCbfYPyITQ-7l4upoX8nvctg",
+      "enabled": true
+    },
+    {
+      "id": "yt-ai-explained",
+      "name": "AI Explained",
+      "region": "US",
+      "type": "video",
+      "handle": "@aiexplained-official",
+      "channelId": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+      "enabled": true
+    },
+    {
+      "id": "yt-matthew-berman",
+      "name": "Matthew Berman",
+      "region": "US",
+      "type": "video",
+      "handle": "@matthew_berman",
+      "channelId": "UCawZsQWqfGSbCI5yjkdVkTA",
+      "enabled": true
+    },
+    {
+      "id": "yt-jocoding",
+      "name": "조코딩",
+      "region": "KR",
+      "type": "video",
+      "handle": "@jocoding",
+      "channelId": "UCQNE2JmbasNYbjGAcuBiRRg",
+      "enabled": true
+    },
+    {
+      "id": "yt-nomadcoders",
+      "name": "노마드 코더",
+      "region": "KR",
+      "type": "video",
+      "handle": "@nomadcoders",
+      "channelId": "UCUpJs89fSBXNolQGOYKn0YQ",
+      "enabled": true
+    },
+
+    {
+      "id": "byline",
+      "name": "바이라인네트워크",
+      "region": "KR",
+      "type": "article",
+      "url": "https://byline.network/feed/",
+      "enabled": false
+    },
+    {
+      "id": "yozm",
+      "name": "요즘IT",
+      "region": "KR",
+      "type": "article",
+      "url": "https://yozm.wishket.com/magazine/feed/",
+      "enabled": false
+    },
+    {
+      "id": "aitimes-kr",
+      "name": "인공지능신문",
+      "region": "KR",
+      "type": "article",
+      "url": "https://www.aitimes.kr/rss/allArticle.xml",
+      "enabled": false
+    },
+    {
+      "id": "mit-tr",
+      "name": "MIT Technology Review",
+      "region": "US",
+      "type": "article",
+      "url": "https://www.technologyreview.com/feed/",
+      "enabled": false
+    },
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "region": "US",
+      "type": "article",
+      "url": "https://hnrss.org/frontpage",
+      "enabled": false
+    },
+    {
+      "id": "venturebeat-ai",
+      "name": "VentureBeat AI",
+      "region": "US",
+      "type": "article",
+      "url": "https://venturebeat.com/category/ai/feed/",
+      "enabled": false
+    },
+    {
+      "id": "simonwillison",
+      "name": "Simon Willison",
+      "region": "US",
+      "type": "article",
+      "url": "https://simonwillison.net/atom/everything/",
+      "enabled": false
+    },
+    {
+      "id": "itmedia-news",
+      "name": "ITmedia NEWS",
+      "region": "JP",
+      "type": "article",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+      "enabled": false
+    },
+    {
+      "id": "cnet-jp",
+      "name": "CNET Japan",
+      "region": "JP",
+      "type": "article",
+      "url": "https://feeds.japan.cnet.com/rss/cnet/all.rdf",
+      "enabled": false
+    },
+    {
+      "id": "impress-watch",
+      "name": "Impress Watch",
+      "region": "JP",
+      "type": "article",
+      "url": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+      "enabled": false
+    }
+  ]
+}
